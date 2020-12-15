@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Sudoku</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="scripts.js"></script>
+	  <div class="main">
+		  <div id="column1">
+			<div class="row">
+				<div class="guide">Medium</div>
+				<div class="guide">☆ 0</div>
+			</div>
+			<div class="row">
+			  <table cellspacing="0">
+				  <tbody>
+					<tr>
+					  <td> 5</td>
+					  <td>8 </td>
+					  <td>&nbsp;</td>
+					</tr>
+					<tr>
+					  <td>4 </td>
+					  <td>&nbsp;</td>
+					  <td>7</td>
+					</tr>
+					<tr>
+					  <td>9</td>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					</tr>
+				  </tbody>
+				</table>	<table cellspacing="0">
+				  <tbody>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					</tr>
+					<tr>
+					  <td>8</td>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					</tr>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					</tr>
+				  </tbody>
+				</table>	<table cellspacing="0">
+				  <tbody>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>4</td>
+					  <td>9</td>
+					</tr>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>1</td>
+					  <td>2</td>
+					</tr>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+			<div class="row">
+				<table cellspacing="0">
+				  <tbody>		<tr>
+					  <td>&nbsp;</td>
+					  <td>6</td>
+					  <td>5</td>
+					</tr>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td>3</td>
+					</tr>
+					<tr>
+					  <td>7</td>
+					  <td>9</td>
+					  <td>&nbsp;</td>
+					</tr>
+				  </tbody>
+				</table>	<table cellspacing="0">
+				  <tbody>		<tr>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td>4</td>
+					</tr>
+					<tr>
+					  <td>5</td>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					</tr>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td>6</td>
+					</tr>
+				  </tbody>
+				</table>
+				<table cellspacing="0">
+				  <tbody>		<tr>
+					  <td>1</td>
+					  <td>9</td>
+					  <td>3</td>
+					</tr>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					</tr>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+			<div class="row">
+				<table cellspacing="0" style="border-bottom: 2px solid #222;">
+				  <tbody>		<tr>
+					  <td>6</td>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					</tr>
+					<tr>
+					  <td>1</td>
+					  <td>&nbsp;</td>
+					  <td>8</td>
+					</tr>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					</tr>
+				  </tbody>
+				</table>	<table cellspacing="0" style="border-bottom: 2px solid #222;">
+				  <tbody>		<tr>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					</tr>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					</tr>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td>2</td>
+					</tr>
+				  </tbody>
+				</table>	<table cellspacing="0" style="border-bottom: 2px solid #222;">
+				  <tbody>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					  <td>5</td>
+					</tr>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td>7</td>
+					  <td>&nbsp;</td>
+					</tr>
+					<tr>
+					  <td>9</td>
+					  <td>&nbsp;</td>
+					  <td>&nbsp;</td>
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+		  </div>
+		  <div id="column2">
+			<div class="row2">
+				<div class="guide">
+					Mistakes: 0/3
+				</div>
+				<div class="guide" style="text-align:right;">
+					00:00
+				</div>
+			</div>
+			<div class="row2">
+				<div class="buttons">
+					<div class="text">erase</div>
+				</div>
+				<div class="buttons">
+					<div class="text">hint</div>
+				</div>
+			</div>
+			<div class="row2">
+				<div class="buttons">
+					<div class="text">undo</div>
+				</div>
+				<div class="buttons">
+					<div class="text">give up and reveal answer</div>
+				</div>
+			</div>
+			<div class="row2">
+			  <table cellspacing="0">
+				  <tbody>
+					<tr>
+					  <td> 1</td>
+					  <td>2 </td>
+					  <td>3 </td>
+					</tr>
+					<tr>
+					  <td>4 </td>
+					  <td>5 </td>
+					  <td>6</td>
+					</tr>
+					<tr>
+					  <td> 7</td>
+					  <td> 8</td>
+					  <td> 9</td>
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+		  </div>
+		  <div id="ad">
+			ad goes in here!! :D
+		  </div>
+	</div>
+</body>
+
+</html>
